@@ -1,0 +1,86 @@
+body{
+  background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+  background-size: cover;
+  
+  
+  
+  height: 100vh;
+  padding:0;
+  margin:0;
+}
+
+.box-2{
+    padding:0.5em;
+    width: calc(100%/2-1rem);
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.image_container {
+    max-width: 800px;
+    max-height: 450px;
+  }
+  #cropped_result>img{
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+  }
+
+.adarsh{
+width: 320px;
+height: 240px;
+background-color: aqua;
+}
+
+.m-border {
+  border: 2px solid rgb(184, 46, 46);
+  position: relative;
+}
+
+.width-m {
+  width: 25%;
+}
+
+.sample>img {
+  margin: 10px;
+ 
+}
+.canvas-w{
+  width: 340px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table thead th{
+  letter-spacing: 4px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+table {
+  padding: 3%;
+  width: 100%;
+}
+td
+{
+ max-width: 100px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ text-align: center;
+ border: 1px solid black;
+ padding: 5px;
+}
+#main>img{
+  width:80px;
+  height: 80px;
+}
+#main{
+  width: 100px;
+  height: 100px;
+}
